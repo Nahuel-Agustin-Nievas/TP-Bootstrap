@@ -23,6 +23,7 @@ boton2.addEventListener('click', () => {
     total2= total1 -((descuento * total1) / 100);
 
     // se imprime en pantalla en resultado
+    
     document.getElementById('total').innerHTML= " Total a pagar: $" +  total2.toString();  
     
 }
